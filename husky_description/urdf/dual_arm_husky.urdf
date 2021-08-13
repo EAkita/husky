@@ -163,7 +163,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
     <joint name="front_left_wheel">
-      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
     </joint>
   </transmission>
   <link name="front_right_wheel_link">
@@ -204,7 +204,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
     <joint name="front_right_wheel">
-      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
     </joint>
   </transmission>
   <link name="rear_left_wheel_link">
@@ -245,7 +245,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
     <joint name="rear_left_wheel">
-      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
     </joint>
   </transmission>
   <link name="rear_right_wheel_link">
@@ -286,7 +286,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
     <joint name="rear_right_wheel">
-      <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+      <hardwareInterface>VelocityJointInterface</hardwareInterface>
     </joint>
   </transmission>
   <!-- Spawn Husky chassis -->
@@ -462,7 +462,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="husky_ptu_pan_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="husky_ptu_pan">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="husky_ptu_pan_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -479,7 +479,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="husky_ptu_tilt_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="husky_ptu_tilt">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="husky_ptu_tilt_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -701,7 +701,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="l_ur5_arm_shoulder_pan_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="l_ur5_arm_shoulder_pan_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="l_ur5_arm_shoulder_pan_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -710,7 +710,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="l_ur5_arm_shoulder_lift_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="l_ur5_arm_shoulder_lift_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="l_ur5_arm_shoulder_lift_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -719,7 +719,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="l_ur5_arm_elbow_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="l_ur5_arm_elbow_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="l_ur5_arm_elbow_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -728,7 +728,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="l_ur5_arm_wrist_1_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="l_ur5_arm_wrist_1_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="l_ur5_arm_wrist_1_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -737,7 +737,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="l_ur5_arm_wrist_2_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="l_ur5_arm_wrist_2_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="l_ur5_arm_wrist_2_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -746,7 +746,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="l_ur5_arm_wrist_3_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="l_ur5_arm_wrist_3_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="l_ur5_arm_wrist_3_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -975,7 +975,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="r_ur5_arm_shoulder_pan_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="r_ur5_arm_shoulder_pan_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="r_ur5_arm_shoulder_pan_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -984,7 +984,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="r_ur5_arm_shoulder_lift_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="r_ur5_arm_shoulder_lift_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="r_ur5_arm_shoulder_lift_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -993,7 +993,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="r_ur5_arm_elbow_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="r_ur5_arm_elbow_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="r_ur5_arm_elbow_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -1002,7 +1002,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="r_ur5_arm_wrist_1_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="r_ur5_arm_wrist_1_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="r_ur5_arm_wrist_1_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -1011,7 +1011,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="r_ur5_arm_wrist_2_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="r_ur5_arm_wrist_2_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="r_ur5_arm_wrist_2_motor">
       <mechanicalReduction>1</mechanicalReduction>
@@ -1020,7 +1020,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <transmission name="r_ur5_arm_wrist_3_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="r_ur5_arm_wrist_3_joint">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="r_ur5_arm_wrist_3_motor">
       <mechanicalReduction>1</mechanicalReduction>
